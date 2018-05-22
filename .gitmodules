@@ -1,3 +1,0 @@
-[submodule "stm32f103xx"]
-	path = stm32f103xx
-	url = https://github.com/japaric/stm32f103xx.git
