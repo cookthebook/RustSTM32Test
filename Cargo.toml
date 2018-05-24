@@ -5,6 +5,12 @@ name = "ruststm32test"
 repository = ""
 version = "0.1.0"
 
+[dependencies.l3gd20]
+version = "0.2.0"
+
+[dependencies.lsm303dlhc]
+version = "0.2.0"
+
 [dependencies.cortex-m-rt]
 version = "0.5.0"
 
@@ -20,6 +26,7 @@ features = ["rt"]
 
 [dependencies.f3]
 git = "https://github.com/japaric/f3.git"
+version = "0.6.0"
 
 [profile.dev]
 codegen-units = 1
