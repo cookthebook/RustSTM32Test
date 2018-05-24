@@ -4,6 +4,18 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label": "Build Rust",
+            "type": "shell",
+            "command": "cargo build --target=thumbv7em-none-eabihf",
+            "group": "build",
+            "presentation": {
+                // Reveal the output only if unrecognized errors occur.
+                "reveal": "always"
+            },
+            // Use the standard MS compiler pattern to detect errors, warnings and infos
+            "problemMatcher": "$msCompile"
+        },
+        {
             "label": "Start OpenOCD",
             "type": "shell",
             "command": "cmd /c start_openocd.bat",

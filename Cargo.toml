@@ -5,12 +5,6 @@ name = "ruststm32test"
 repository = ""
 version = "0.1.0"
 
-[dependencies.l3gd20]
-version = "0.2.0"
-
-[dependencies.lsm303dlhc]
-version = "0.2.0"
-
 [dependencies.cortex-m-rt]
 version = "0.5.0"
 
